@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
+.body {
+	margin: 0% 7% ;
+}
 ul, li {
   position: relative;
   list-style-type: none;
@@ -12,8 +15,8 @@ ul, li {
 li > a {
   color: black;
   text-decoration: none;
-	font-size: 24px;
-	 padding: 14px 16px;
+  font-size: 24px;
+  padding: 14px 16px;
 }
 
 a:hover {
@@ -35,7 +38,7 @@ a:hover {
 
 .search-bar {
 	position: relative;
-	left:220px;
+	left: 320px;
 	z-index: auto;
 }
 
@@ -46,4 +49,38 @@ a:hover {
 
 .nav-panels {
 	margin-top:1em;
+	position:relative;
+	right: 4em;
+}
+
+
+.food_img {
+	width: 900px;
+}
+
+
+
+.paragraph-content {
+	font-size: 20px;
+	margin: 0% .5em 0% .5em;
+	text-align: justify;
+	font-family: 'Noto Serif', serif;
+}
+
+.footer-align-center {
+	float:center!important;
+}
+
+
+.footer {
+	position:relative;
+	text-align: center;
+	margin: 0%;
+	top:2em;
+}
+
+#share_mo_lang {
+	display: block;
+	position: relative;
+	float: right;
 }
