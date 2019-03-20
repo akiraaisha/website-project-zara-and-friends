@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+ul, li {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display:inline;
+}
+
+li > a {
+  color: black;
+  text-decoration: none;
+	font-size: 24px;
+	 padding: 14px 16px;
+}
+
+a:hover {
+	color: #a0a0a0;
+}
+
+.logo {
+	vertical-align: middle;
+    border-style: none;
+	height: 100px;
+    position: relative;
+    left: 3em;
+	top:-10px;
+}
+
+.nav-header {
+	float:right!important;
+}
+
+.search-bar {
+	position: relative;
+	left:220px;
+	z-index: auto;
+}
+
+.container {
+	margin-top: 2em;
+}
+
+
+.nav-panels {
+	margin-top:1em;
+}
